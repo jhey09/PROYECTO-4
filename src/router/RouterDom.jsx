@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom"
-import Reservation from "../assets/reservacion/Reservacion";
+import Form from "../assets/body/Reservacion";
 import App from "..";
 
 
@@ -10,7 +10,7 @@ export const router = createBrowserRouter([
     },
     {
         path: '/Reservation',
-        element: <Reservation />
+        element: <Form />
 
     }
 ]);

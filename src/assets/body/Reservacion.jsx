@@ -61,7 +61,8 @@ const Form = () => {
   }, []);
 
   return (
-    <div className="formBox">
+    <section className="flexForm">
+      <div className="formBox">
       <div className="value">
         <form name="form">
           <h2>Datos del cliente</h2>
@@ -106,18 +107,19 @@ const Form = () => {
           </button>
         </form>
       </div>
-      {cliente.map((item) => (
+    </div>
+    {cliente.map((item) => (
       <div className="card w-50"  key={item.id}>
       <div className="card-body">
-        <h5 className="card-title">{item.nombre}</h5>
-        <p className="card-text">{item.Fecha}</p>
-        <p className="card-text">{item.numero}</p>
-        <p className="card-text">{item.numero}</p>
-        <a href="#" className="btn btn-primary">Button</a>
+        <h5 className="card-title">Nombre: {item.nombre}</h5>
+        <p className="card-text">Fecha: {item.Fecha}</p>
+        <p className="card-text">Celular: {item.numero}</p>
+        <p className="card-text"># Personas {item.personas}</p>
+        <a href="#" className="btn btn-danger" >Eliminar Cita</a>
       </div>
     </div>
       ))}
-    </div>
+    </section>
   );
 };
 

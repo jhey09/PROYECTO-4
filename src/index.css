@@ -251,4 +251,14 @@ picture img{
   }
 }
 
+.flexForm{
+  display: flex;
+}
 
+
+@media only screen and (max-width: 852px) {
+  .flexForm{
+    display: block;
+  }
+  
+}

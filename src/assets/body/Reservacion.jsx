@@ -115,7 +115,7 @@ const Form = () => {
         <p className="card-text">Fecha: {item.Fecha}</p>
         <p className="card-text">Celular: {item.numero}</p>
         <p className="card-text"># Personas {item.personas}</p>
-        <a href="#" className="btn btn-danger" >Eliminar Cita</a>
+        <a href="#" className="btn btn-danger" onClick={() => onDelete(item.id)}>Eliminar Cita</a>
       </div>
     </div>
       ))}

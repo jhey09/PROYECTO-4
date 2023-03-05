@@ -5,11 +5,11 @@ import App from "..";
 
 export const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/PROYECTO-4/',
         element:<App />,
     },
     {
-        path: '/Reservation',
+        path: '/PROYECTO-4/Reservation',
         element: <Form />
 
     }

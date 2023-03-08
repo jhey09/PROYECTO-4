@@ -19,7 +19,7 @@ const MainHeader = () => {
             <a href="">Menú</a>
           </li>
           <li>
-            <a href="/Reservation">Reservation</a>
+            <a href="/PROYECTO-4/Reservation">Reservation</a>
           </li>
         </ul>
       </nav>
